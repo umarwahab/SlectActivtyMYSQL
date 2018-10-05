@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mediapie.app.com.slectactivtymysql.GulshanActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Wellcome to Gulshan Branch"
+        android:textSize="9pt" />
+
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="datetime"
+        android:hint="select time"
+         />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTime"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+
+        android:text="Confirm" />
+
+    <Button
+        android:id="@+id/tokbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:enabled="false"
+        android:text="Generate Token" />
+
+    <TextView
+        android:id="@+id/curenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/confirm"
+        android:layout_marginBottom="172dp"
+        android:text="Current time/Number" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/curenttext"
+        android:text="Current serving" />
+
+    <TextView
+        android:id="@+id/timresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        android:layout_toStartOf="@+id/tokbtn1"
+        android:text="Time result" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="final hours interval" />
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/f"
+   tools:context="mediapie.app.com.slectactivtymysql.DataActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:gravity="center"
+        android:enabled="false"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="96dp"
+        android:gravity="center"
+        android:enabled="false"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="156dp"
+        android:gravity="center"
+        android:text="Your Ticket Number"
+        android:textSize="8pt"
+
+        />
+
+    <TextView
+        android:id="@+id/tvtoken"
+        android:layout_width="374dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="188dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="22pt" />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="-137dp"
+        android:gravity="center"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvdate"
+        android:gravity="center"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:text="Gulshan Branch" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="145dp"
+        android:layout_marginStart="67dp"
+        android:src="@drawable/dc" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginEnd="74dp"
+        android:src="@drawable/time" />
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mediapie.app.com.slectactivtymysql.AwamiMarkazActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Wellcome to Awami Markaz Branch"
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="select date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="select time"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTime"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+
+        android:text="Confirm" />
+
+    <Button
+        android:id="@+id/tokbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:enabled="false"
+        android:text="Generate Token" />
+
+
+
+</RelativeLayout>
